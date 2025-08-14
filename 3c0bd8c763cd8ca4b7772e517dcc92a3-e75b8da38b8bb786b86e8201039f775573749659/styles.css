@@ -1,0 +1,73 @@
+:root {
+  --bg: #0b1020;
+  --text: #e6eefc;
+  --muted: #b5c2e4;
+  --brand: #2E1789; /* Purple from logo */
+  --card: #101733;
+  --line: #2a3866;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+a {
+  color: var(--brand);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+header {
+  background: var(--card);
+  padding: 10px 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 900px;
+  margin: auto;
+}
+
+.main-nav a {
+  margin-left: 15px;
+  color: var(--text);
+}
+
+.hero {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.btn.primary {
+  background-color: var(--brand);
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.section {
+  padding: 20px;
+}
+
+.section.alt {
+  background-color: #111a3a;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+
+.site-footer {
+  text-align: center;
+  padding: 20px;
+  background: var(--card);
+}
